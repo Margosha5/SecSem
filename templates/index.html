@@ -1,0 +1,18 @@
+<h1>Credit Cards Management</h1>
+        
+<div class="navbar">
+    <a href="/users">View Active Users</a>
+</div>
+
+<div class="search-form">
+    <h3>Search</h3>
+    <form action="/by-login" method="get">
+        <input type="text" name="login" placeholder="Enter login" required>
+        <button type="submit">Search by user login</button>
+    </form>
+
+    <form action="/by-id" method="get">
+        <input type="number" name="id" placeholder="Enter ID" required>
+        <button type="submit">Search by user ID</button>
+    </form>
+</div>

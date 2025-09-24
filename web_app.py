@@ -196,7 +196,7 @@ class UserHandler(BaseHTTPRequestHandler):
             <h1>User Info</h1>
             <div class="navbar">
                 <a href="/">Home</a> | 
-                <a href="/users">View All Active Users</a>
+                <a href="/users">View Active Users</a>
             </div>
             {user_info}
             '''
